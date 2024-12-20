@@ -1,7 +1,7 @@
 const express = require('express');
 
 // Configurações
-const PORT = 443;
+const PORT = 8080;
 const GITHUB_API_URL = 'https://api.github.com/users/takenet/repos?sort=created&direction=asc';
 
 // SRP - Classe para gerenciar chamadas à API
